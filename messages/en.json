@@ -59,14 +59,11 @@
       "machineryMobilization": "Machinery mobilization"
     },
     "resources": {
-      "blogHome": "Blog & insights",
-      "blogTransportNews": "Heavy transport news",
-      "blogRentalTips": "Machinery rental tips",
-      "blogIndustryUpdates": "Industry updates",
-      "blogProjectLogistics": "Project logistics articles",
-      "blogSafety": "Safety & operations",
-      "careers": "Careers",
-      "applyOnline": "Apply online"
+      "blog": "Blog & Insights",
+      "fleet": "Fleet & Equipment",
+      "industries": "Industries Supported",
+      "projects": "Project Gallery",
+      "careers": "Careers"
     },
     "viewAll": "View all"
   },
@@ -282,16 +279,73 @@
         "description": "Our long-term direction and the commitments that guide every mobilization."
       },
       "coreValues": {
-        "title": "Core Values",
-        "description": "Safety, reliability, and partnership embedded in how we operate."
+        "title": "Our Core Values",
+        "description": "The principles that drive our commitment to excellence.",
+        "items": {
+          "safety": {
+            "title": "Safety First",
+            "description": "Uncompromising commitment to the well-being of our people and projects."
+          },
+          "reliability": {
+            "title": "Reliability",
+            "description": "Delivering on our promises with speed, precision, and consistency."
+          },
+          "integrity": {
+            "title": "Integrity",
+            "description": "Professionalism, transparency, and ethics in every transaction."
+          },
+          "excellence": {
+            "title": "Operational Excellence",
+            "description": "Striving for the highest standards in heavy transport and logistics."
+          }
+        }
       },
       "operationalAreas": {
-        "title": "Operational Areas",
-        "description": "Regions and corridors where GQS supports critical logistics."
+        "title": "Regional Coverage",
+        "description": "Extensive logistical reach across the Kingdom's industrial corridors.",
+        "regions": [
+          { "name": "Eastern Region", "cities": "Dammam, Jubail, Khobar" },
+          { "name": "Central Region", "cities": "Riyadh & Surrounding Areas" },
+          { "name": "Western Region", "cities": "Jeddah, Yanbu, Rabigh" },
+          { "name": "GCC Routes", "cities": "UAE, Kuwait, Qatar, Bahrain, Oman" }
+        ]
       },
       "whyChooseUs": {
         "title": "Why Choose Us",
         "description": "Mobilization speed, fleet depth, and compliance you can audit with confidence."
+      },
+      "founderMessage": {
+        "title": "Message From Leadership",
+        "content": "At Gulf Quality Structure Establishment, we believe that the success of Saudi Arabia's industrial growth depends on reliable logistics. Our journey is built on the pillars of safety and integrity, ensuring every project is handled with professionalism.",
+        "author": "Management Team",
+        "position": "GQS Leadership"
+      },
+      "safetyCommitment": {
+        "title": "Safety & Quality Commitment",
+        "description": "Safety is the core of our operations. We maintain rigorous standards for every transport and machinery deployment across the Kingdom.",
+        "points": [
+          "Zero-Incident Goal Culture",
+          "Rigorous Equipment Inspections",
+          "Certified Professional Operators",
+          "Full HSE Regulatory Compliance"
+        ]
+      },
+      "operationalStrengths": {
+        "title": "Operational Strengths",
+        "description": "Leveraging a robust fleet and expert coordination to deliver results.",
+        "items": [
+          { "title": "Fleet Capacity", "value": "100+ Units" },
+          { "title": "Mobilization", "value": "Fast Response" },
+          { "title": "Experience", "value": "15+ Years" }
+        ]
+      },
+      "certifications": {
+        "title": "Our Accreditations",
+        "items": [
+          "ISO 9001:2015 Quality Management",
+          "Industrial Safety Certifications",
+          "Authorized Transport Provider"
+        ]
       }
     },
     "services": {
@@ -467,7 +521,36 @@
     "projects": {
       "index": {
         "title": "Projects",
-        "description": "Representative deliveries demonstrating controls and transparency."
+        "description": "Representative deliveries demonstrating controls and transparency.",
+        "items": [
+          {
+            "id": "p1",
+            "title": "Industrial Plant Mobilization",
+            "scope": "Strategic mobilization of heavy equipment for a major industrial plant shutdown.",
+            "location": "Dammam Industrial City",
+            "equipment": "Lowbed Trailers, 100T Cranes, Support Vehicles",
+            "challenge": "Coordinating 40+ units within a strict 48-hour mobilization window.",
+            "image": "/project-1.png"
+          },
+          {
+            "id": "p2",
+            "title": "Cross-Border Industrial Logistics",
+            "scope": "Transporting oversized industrial components across GCC borders.",
+            "location": "Riyadh to Abu Dhabi, UAE",
+            "equipment": "Extendable Flatbeds, Escort Convoys",
+            "challenge": "Managing complex multi-border permits and oversized cargo engineering.",
+            "image": "/project-2.png"
+          },
+          {
+            "id": "p3",
+            "title": "Port-to-Site Heavy Cargo Project",
+            "scope": "Handling and transporting critical machinery from Jubail Port to site.",
+            "location": "Jubail Industrial Port",
+            "equipment": "Heavy-Duty Forklifts, Hiab Boom Trucks",
+            "challenge": "Navigating high-traffic port limits under strict safety protocols.",
+            "image": "/project-3.png"
+          }
+        ]
       },
       "heavyEquipmentTransport": {
         "title": "Heavy Equipment Transport",

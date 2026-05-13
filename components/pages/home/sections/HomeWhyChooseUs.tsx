@@ -39,19 +39,22 @@ export async function HomeWhyChooseUs() {
         </div>
 
         <StaggerContainer staggerDelay={0.1}>
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-4 auto-rows-[220px]">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-3 auto-rows-[220px]">
             {/* Large Bento Item 1 */}
             <div className="md:col-span-8 md:row-span-2 group">
               <StaggerItem>
-                <div className="h-full w-full p-8 bg-[var(--color-primary-navy)] rounded-sm relative overflow-hidden flex flex-col justify-end border border-white/5 shadow-2xl">
+                <div className="h-full w-full p-8 bg-[var(--color-primary-navy)] rounded-sm relative overflow-hidden flex flex-col justify-between border border-white/5 shadow-2xl">
+                  {/* Design accent */}
+                  <div className="absolute top-0 left-0 w-full h-1 gradient-line opacity-50" />
+                  
                   {/* Decorative background icon */}
                   <LayoutDashboard className="absolute -top-10 -right-10 h-64 w-64 text-white opacity-[0.03] rotate-12 group-hover:rotate-6 transition-transform duration-700" />
                   
-                  <div className="relative z-10 space-y-4">
+                  <div className="relative z-10 space-y-4 pt-12">
                     <div className="h-12 w-12 rounded-sm bg-[var(--color-accent-gold)] flex items-center justify-center text-[var(--color-primary-navy)] mb-4 shadow-xl shadow-black/20">
                       <LayoutDashboard className="h-6 w-6" />
                     </div>
-                    <h3 className="text-2xl font-black text-white uppercase tracking-tight">
+                    <h3 className="text-3xl font-black text-white uppercase tracking-tight max-w-md">
                       {t("items.solutions.title")}
                     </h3>
                     <p className="text-white/60 text-base leading-relaxed max-w-lg group-hover:text-white/80 transition-colors">
