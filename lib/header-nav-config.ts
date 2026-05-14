@@ -56,6 +56,7 @@ export const HEADER_NAV_ENTRIES: HeaderNavEntry[] = [
       { href: "/services/industrial-support-services", group: "services", key: "industrialSupportServices" },
     ],
   },
+  { kind: "link", href: "/fleet-equipment", navKey: "fleetEquipment" },
   { kind: "link", href: "/blog", navKey: "blog" },
   { kind: "link", href: "/projects", navKey: "projects" },
   { kind: "link", href: "/contact-us", navKey: "contactUs" },
